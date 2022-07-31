@@ -1,474 +1,285 @@
 {
-    "Digimon": {
-        "ID001": {
-            "name" : "Falcomon",
-            "rank" : "Rookie",
-            "type" : "Mobility",
-            "attacks" : {
-                "Attack" : {
-                    "type": "damage",
-                    "effect" : 60,
-                    "sp" : 0
+    "Digimon": [
+        {
+            "ID": 1,
+            "NAME": "Falcomon",
+            "RANK": "Rookie",
+            "TYPE": "Mobility"
+        },
+        {
+            "ID": 2,
+            "NAME": "Labramon",
+            "RANK": "Rookie",
+            "TYPE": "All-Rounder"
+        },
+        {
+            "ID": 4,
+            "NAME": "Agumon",
+            "RANK": "Rookie",
+            "TYPE": "All-Rounder"
+        },
+        {
+            "ID": 8,
+            "NAME": "Kunemon",
+            "RANK": "Rookie",
+            "TYPE": "Attack"
+        },
+        {
+            "ID": 15,
+            "NAME": "Gotsumon",
+            "RANK": "Rookie",
+            "TYPE": "Defense"
+        },
+        {
+            "ID": 17,
+            "NAME": "Betamon",
+            "RANK": "Rookie",
+            "TYPE": "Defense"
+        },
+        {
+            "ID": 18,
+            "NAME": "Gazimon",
+            "RANK": "Rookie",
+            "TYPE": "Attack",
+            "CHAT": [
+                {
+                    "ID": 1,
+                    "PROMPT": "I don't care if you smile, or laugh, or whatever! I ain't gonna trust no human!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "I'll earn your trust!",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "What can I do, then?",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "I trust you.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Fine by me.",
+                            "RESPONSE": -999
+                        }
+                    ]
                 },
-                "Scratch Smash": {
-                    "type": "damage",
-                    "Effect" : 105,
-                    "sp" : 15
-                }
-            },
-            "description": "A bird-shaped monster.  It's wings are not well-developed, so at most it can only glide.  However, its powerful legs let it run around mountains at breakneck speeds.  Falcomon excels at swift attacks, and has a violet disposition.",
-            "Evolution": {
-                "ID999": "UNKNOWN"
-            }
-        },
-        "ID002": {
-            "name" : "Labramon",
-            "rank" : "Rookie",
-            "type" : "All-Rounder",
-            "attacks" : {
-                "Attack" : {
-                    "type": "damage",
-                    "effect" : 55,
-                    "sp" : 0
+                {
+                    "ID": 2,
+                    "PROMPT": "Go on... Try guessing what I think of ya!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "That I'm cool?",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "That I'm trouble...",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "That I'm easygoing",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "That I'm funny!",
+                            "RESPONSE": -999
+                        }
+                    ]
                 },
-                "Cure Liqueur": {
-                    "type": "heal",
-                    "effect" : 50,
-                    "sp" : 25
-                }
-            },
-            "description": "A Beast monster that resembles a real dog.  She is extreamly loyal to her partner, and treats their protection as her duty. Labramon has a special ability that allows her to heal injuries and illnesses of monsters she considers allies.",
-            "Evolution": {
-                "ID999": "UNKNOWN"
-            }
-        },
-        "ID003": {
-            "name": "Unknown"
-        },
-        "ID004": {
-            "name" : "Agumon",
-            "rank" : "Rookie",
-            "type" : "All-Rounder",
-            "attacks" : {
-                "Attack" : {
-                    "type": "damage",
-                    "effect" : 60,
-                    "sp" : 0
+                {
+                    "ID": 3,
+                    "PROMPT": "I don't feel so good... Someone, help... ...Pffft, ha ha ha, just kidding!  Did I getcha?!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Whoa, you scared me!",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "What awful acting...",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "I'm glad you're okay.",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "That was lame!",
+                            "RESPONSE": -1
+                        }
+                    ]
                 },
-                "Pepper Breath": {
-                    "type": "damage",
-                    "effect" : 100,
-                    "sp" : 15
-                }
-            },
-            "description": "A monster resembling a small dinosaur.  Since he's still growing he dosn't boast much power, but his wild temperment makes him a bit reckless.  Sharp claws grow from Agumon's limbs, and he displays a high degree of power in battle.",
-            "Evolution": {
-                "ID998": "UNKNOWN",
-                "ID999": "UNKNOWN",
-                "ID038": "Tyrannomon"
-            }
-        },
-        "ID005": {
-            "name": "Unknown"
-        },
-        "ID006": {
-            "name": "Unknown"
-        },
-        "ID007": {
-            "name": "Unknown"
-        },
-        "ID008": {
-            "name" : "Kunemon",
-            "rank" : "Rookie",
-            "type" : "Attack",
-            "attacks" : {
-                "Attack" : {
-                    "type": "damage",
-                    "effect" : 50,
-                    "sp" : 0
+                {
+                    "ID": 4,
+                    "PROMPT": "Don't you think every day's just sooo boring?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "I'm too busy living.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Let's go do something!",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Makes me wanna yawn.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Wanna fight for fun?",
+                            "RESPONSE": -999
+                        }
+                    ]
                 },
-                "Electric Thread": {
-                    "type": "damage",
-                    "effect" : 95,
-                    "sp" : 15
-                }
-            },
-            "description": "A Larva monster with a lightning pattern on his body.  It isn't clear if the bolt-shaped patterns on Kunemon's face area act as optic organs, but the fact that they change shape according to his emotions make it a distinct possibility.",
-            "Evolution": {
-                "ID999": "UNKNOWN"
-            }
-        },
-        "ID009": {
-            "name": "Unknown"
-        },
-        "ID010": {
-            "name": "Unknown"
-        },
-        "ID011": {
-            "name": "Unknown"
-        },
-        "ID012": {
-            "name": "Unknown"
-        },
-        "ID013": {
-            "name": "Unknown"
-        },
-        "ID014": {
-            "name": "Unknown"
-        },
-        "ID015": {
-            "name" : "Gotsumon",
-            "rank" : "Rookie",
-            "type" : "Defense",
-            "attacks" : {
-                "Attack" : {
-                    "type": "damage",
-                    "effect" : 55,
-                    "sp" : 0
+                {
+                    "ID": 5,
+                    "PROMPT": "Next! Whaddaya think'd be a good prank?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "A pit trap?",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Tripping someone?",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "water baloons",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Pranks are bad!",
+                            "RESPONSE": -999
+                        }
+                    ]
                 },
-                "Rock Fist": {
-                    "type": "damage",
-                    "effect" : 95,
-                    "sp" : 15
-                }
-            },
-            "description": "A rock monster with powerful defensive abilities, armored in the ore data from its habitat.  This selfish monster becomes a handful when angered, rampaging like an erupting volcano.",
-            "Evolution": {
-                "ID997": "UNKNOWN",
-                "ID998": "UNKNOWN",
-                "ID999": "UNKNOWN"
-            }
-        },
-        "ID016": {
-            "name": "Unknown"
-        },
-        "ID017": {
-            "name" : "Betamon",
-            "rank" : "Rookie",
-            "type" : "Defense",
-            "attacks" : {
-                "Attack" : {
-                    "effect" : 50,
-                    "sp" : 0
+                {
+                    "ID": 6,
+                    "PROMPT": "Hey what kind of food do you like?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Love me some meat!",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Fruit's my favorite!",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Veggies all the way.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Why should I tell you?",
+                            "RESPONSE": -999
+                        }
+                    ]
                 },
-                "Electric Shock": {
-                    "effect" : 95,
-                    "sp" : 15
+                {
+                    "ID": 7,
+                    "PROMPT": "Boy, you're a tough-lookin' mug, arn't ya?! I bet I'd loose if we threw down...",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Have more confidence",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "We'd probably tie.",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "I'd definitely lose.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Why don't we find out?",
+                            "RESPONSE": -999
+                        }
+                    ]
                 }
-            },
-            "description": "An amphibian monster that walks on four legs.  Betamon is a docile monster with a mild temperament, but unleshes its special move, Electric Shock., when angered.  attacking its enemies with over a million volts of electric current.",
-            "Evolution": {
-                "ID997": "UNKNOWN",
-                "ID998": "UNKNOWN",
-                "ID999": "UNKNOWN"
-            }
+            ],
+            "DROP": "Bandage",
+            "GIVEITEMS": "Bandage"
         },
-        "ID018": {
-            "name": "Unknown"
-        },
-        "ID019": {
-            "name": "Unknown"
-        },
-        "ID020": {
-            "name": "Unknown"
-        },
-        "ID021": {
-            "name": "Unknown"
-        },
-        "ID022": {
-            "name": "Unknown"
-        },
-        "ID023": {
-            "name": "Unknown"
-        },
-        "ID024": {
-            "name": "Unknown"
-        },
-        "ID025": {
-            "name": "Unknown"
-        },
-        "ID026": {
-            "name": "Unknown"
-        },
-        "ID027": {
-            "name": "Unknown"
-        },
-        "ID028": {
-            "name": "Unknown"
-        },
-        "ID029": {
-            "name": "Unknown"
-        },
-        "ID030": {
-            "name": "Unknown"
-        },
-        "ID031": {
-            "name": "Unknown"
-        },
-        "ID032": {
-            "name": "Unknown"
-        },
-        "ID033": {
-            "name": "Unknown"
-        },
-        "ID034": {
-            "name": "Unknown"
-        },
-        "ID035": {
-            "name": "Unknown"
-        },
-        "ID036": {
-            "name": "Unknown"
-        },
-        "ID037": {
-            "name": "Unknown"
-        },
-        "ID038": {
-            "name" : "Tyrannomon",
-            "rank" : "Champion",
-            "type" : "Defense",
-            "attacks" : {
-                "Attack" : {
-                    "effect" : 80,
-                    "sp" : 0
+        {
+            "ID": 999,
+            "NAME": "Numemon",
+            "RANK": "?",
+            "TYPE": "?",
+            "CHAT": [
+                {
+                    "ID": 1,
+                    "PROMPT": "... (The monster looks warily in this direction.)",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "[Try to sooth him.]",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "[Chicken out.]",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "[Prepare to fight.]",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "[Smile back.]",
+                            "RESPONSE": -999
+                        }
+                    ]
                 },
-                "Fire Breath": {
-                    "effect" : 175,
-                    "sp" : 30
+                {
+                    "ID": 2,
+                    "PROMPT": "... (The monster just stands there)",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "[Make a lot of noise.]",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "[Gesture.]",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "[Sing a song.]",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "[Stand silently.]",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "ID": 3,
+                    "PROMPT": "Narr... (The monster is trying to say something.)",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "[Show your confusion.]",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "[Give it some food.]",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "[Cock your head]",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "[Go 'Nyooww' back.]",
+                            "RESPONSE": -999
+                        }
+                    ]
                 }
-            },
-            "description": "A monster shaped like an ancient dinosaur from prehistoric times.  It mows down everything with its two developed arms and massive tail.  Tyrannomon's intelligence and docile personality make it easy to tame.",
-            "Evolution": {
-                "ID997": "UNKNOWN",
-                "ID998": "UNKNOWN",
-                "ID999": "UNKNOWN"
-            }
-        },
-        "ID039": {
-            "name": "Unknown"
-        },
-        "ID040": {
-            "name": "Unknown"
-        },
-        "ID041": {
-            "name": "Unknown"
-        },
-        "ID042": {
-            "name": "Unknown"
-        },
-        "ID043": {
-            "name": "Unknown"
-        },
-        "ID044": {
-            "name": "Unknown"
-        },
-        "ID045": {
-            "name": "Unknown"
-        },
-        "ID046": {
-            "name": "Unknown"
-        },
-        "ID047": {
-            "name": "Unknown"
-        },
-        "ID048": {
-            "name": "Unknown"
-        },
-        "ID049": {
-            "name": "Unknown"
-        },
-        "ID050": {
-            "name": "Unknown"
-        },
-        "ID051": {
-            "name": "Unknown"
-        },
-        "ID052": {
-            "name": "Unknown"
-        },
-        "ID053": {
-            "name": "Unknown"
-        },
-        "ID054": {
-            "name": "Unknown"
-        },
-        "ID055": {
-            "name": "Unknown"
-        },
-        "ID056": {
-            "name": "Unknown"
-        },
-        "ID057": {
-            "name": "Unknown"
-        },
-        "ID058": {
-            "name": "Unknown"
-        },
-        "ID059": {
-            "name": "Unknown"
-        },
-        "ID060": {
-            "name": "Unknown"
-        },
-        "ID061": {
-            "name": "Unknown"
-        },
-        "ID062": {
-            "name": "Unknown"
-        },
-        "ID063": {
-            "name": "Unknown"
-        },
-        "ID064": {
-            "name": "Unknown"
-        },
-        "ID065": {
-            "name": "Unknown"
-        },
-        "ID066": {
-            "name": "Unknown"
-        },
-        "ID067": {
-            "name": "Unknown"
-        },
-        "ID068": {
-            "name": "Unknown"
-        },
-        "ID069": {
-            "name": "Unknown"
-        },
-        "ID070": {
-            "name": "Unknown"
-        },
-        "ID071": {
-            "name": "Unknown"
-        },
-        "ID072": {
-            "name": "Unknown"
-        },
-        "ID073": {
-            "name": "Unknown"
-        },
-        "ID074": {
-            "name": "Unknown"
-        },
-        "ID075": {
-            "name": "Unknown"
-        },
-        "ID076": {
-            "name": "Unknown"
-        },
-        "ID077": {
-            "name": "Unknown"
-        },
-        "ID078": {
-            "name": "Unknown"
-        },
-        "ID079": {
-            "name": "Unknown"
-        },
-        "ID080": {
-            "name": "Unknown"
-        },
-        "ID081": {
-            "name": "Unknown"
-        },
-        "ID082": {
-            "name": "Unknown"
-        },
-        "ID083": {
-            "name": "Unknown"
-        },
-        "ID084": {
-            "name": "Unknown"
-        },
-        "ID085": {
-            "name": "Unknown"
-        },
-        "ID086": {
-            "name": "Unknown"
-        },
-        "ID087": {
-            "name": "Unknown"
-        },
-        "ID088": {
-            "name": "Unknown"
-        },
-        "ID089": {
-            "name": "Unknown"
-        },
-        "ID090": {
-            "name": "Unknown"
-        },
-        "ID091": {
-            "name": "Unknown"
-        },
-        "ID092": {
-            "name": "Unknown"
-        },
-        "ID093": {
-            "name": "Unknown"
-        },
-        "ID094": {
-            "name": "Unknown"
-        },
-        "ID095": {
-            "name": "Unknown"
-        },
-        "ID096": {
-            "name": "Unknown"
-        },
-        "ID097": {
-            "name": "Unknown"
-        },
-        "ID098": {
-            "name": "Unknown"
-        },
-        "ID099": {
-            "name": "Unknown"
-        },
-        "ID100": {
-            "name": "Unknown"
-        },
-        "ID101": {
-            "name": "Unknown"
-        },
-        "ID102": {
-            "name": "Unknown"
-        },
-        "ID103": {
-            "name": "Unknown"
-        },
-        "ID104": {
-            "name": "Unknown"
-        },
-        "ID105": {
-            "name": "Unknown"
-        },
-        "ID106": {
-            "name": "Unknown"
-        },
-        "ID107": {
-            "name": "Unknown"
-        },
-        "ID108": {
-            "name": "Unknown"
-        },
-        "ID109": {
-            "name": "Unknown"
-        },
-        "ID110": {
-            "name": "Unknown"
-        },
-        "ID111": {
-            "name": "Unknown"
-        },
-        "ID112": {
-            "name": "Unknown"
-        },
-        "ID113": {
-            "name": "Unknown"
+            ],
+            "DROPS": ""
+        },        
+        {
+            "ID": 38,
+            "NAME": "Tyannomon",
+            "RANK": "Champion",
+            "TYPE": "Defense"
         }
-        
-    }
+    ]
 }

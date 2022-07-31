@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import axios from 'axios'
+import {useEffect, useState} from 'react'
+import PropTypes from 'prop-types'
+
+import Digimon from './Digimon'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	var path = 'http://localhost:3004/Digimon'
+
+	const [loading, setLoading] = useState(true)
+	const [query, setQuery] = useState([])
+	const [selected, setSelected] = useState('')
+
+	useEffect(() => {
+		const fetchData = async () => {
+			setLoading(true)
+			try {
+				const queryResponse = await axios.get(path)
+				setQuery(queryResponse.data)
+			} catch (error) {
+				console.log(error)
+			}
+			setLoading(false)
+		}
+		fetchData()
+	}, [])
+
+	return (
+		<div>
+			{Object.values(query).map(part => {
+				return (
+					<div key={part.ID}>
+						{part.name === 'Unknown' ? null : <Digimon data={part}/> }
+					</div>
+				)
+			})} 
+		</div>
+	);
 }
 
 export default App;
