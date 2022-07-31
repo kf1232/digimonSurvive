@@ -1,0 +1,474 @@
+{
+    "Digimon": {
+        "ID001": {
+            "name" : "Falcomon",
+            "rank" : "Rookie",
+            "type" : "Mobility",
+            "attacks" : {
+                "Attack" : {
+                    "type": "damage",
+                    "effect" : 60,
+                    "sp" : 0
+                },
+                "Scratch Smash": {
+                    "type": "damage",
+                    "Effect" : 105,
+                    "sp" : 15
+                }
+            },
+            "description": "A bird-shaped monster.  It's wings are not well-developed, so at most it can only glide.  However, its powerful legs let it run around mountains at breakneck speeds.  Falcomon excels at swift attacks, and has a violet disposition.",
+            "Evolution": {
+                "ID999": "UNKNOWN"
+            }
+        },
+        "ID002": {
+            "name" : "Labramon",
+            "rank" : "Rookie",
+            "type" : "All-Rounder",
+            "attacks" : {
+                "Attack" : {
+                    "type": "damage",
+                    "effect" : 55,
+                    "sp" : 0
+                },
+                "Cure Liqueur": {
+                    "type": "heal",
+                    "effect" : 50,
+                    "sp" : 25
+                }
+            },
+            "description": "A Beast monster that resembles a real dog.  She is extreamly loyal to her partner, and treats their protection as her duty. Labramon has a special ability that allows her to heal injuries and illnesses of monsters she considers allies.",
+            "Evolution": {
+                "ID999": "UNKNOWN"
+            }
+        },
+        "ID003": {
+            "name": "Unknown"
+        },
+        "ID004": {
+            "name" : "Agumon",
+            "rank" : "Rookie",
+            "type" : "All-Rounder",
+            "attacks" : {
+                "Attack" : {
+                    "type": "damage",
+                    "effect" : 60,
+                    "sp" : 0
+                },
+                "Pepper Breath": {
+                    "type": "damage",
+                    "effect" : 100,
+                    "sp" : 15
+                }
+            },
+            "description": "A monster resembling a small dinosaur.  Since he's still growing he dosn't boast much power, but his wild temperment makes him a bit reckless.  Sharp claws grow from Agumon's limbs, and he displays a high degree of power in battle.",
+            "Evolution": {
+                "ID998": "UNKNOWN",
+                "ID999": "UNKNOWN",
+                "ID038": "Tyrannomon"
+            }
+        },
+        "ID005": {
+            "name": "Unknown"
+        },
+        "ID006": {
+            "name": "Unknown"
+        },
+        "ID007": {
+            "name": "Unknown"
+        },
+        "ID008": {
+            "name" : "Kunemon",
+            "rank" : "Rookie",
+            "type" : "Attack",
+            "attacks" : {
+                "Attack" : {
+                    "type": "damage",
+                    "effect" : 50,
+                    "sp" : 0
+                },
+                "Electric Thread": {
+                    "type": "damage",
+                    "effect" : 95,
+                    "sp" : 15
+                }
+            },
+            "description": "A Larva monster with a lightning pattern on his body.  It isn't clear if the bolt-shaped patterns on Kunemon's face area act as optic organs, but the fact that they change shape according to his emotions make it a distinct possibility.",
+            "Evolution": {
+                "ID999": "UNKNOWN"
+            }
+        },
+        "ID009": {
+            "name": "Unknown"
+        },
+        "ID010": {
+            "name": "Unknown"
+        },
+        "ID011": {
+            "name": "Unknown"
+        },
+        "ID012": {
+            "name": "Unknown"
+        },
+        "ID013": {
+            "name": "Unknown"
+        },
+        "ID014": {
+            "name": "Unknown"
+        },
+        "ID015": {
+            "name" : "Gotsumon",
+            "rank" : "Rookie",
+            "type" : "Defense",
+            "attacks" : {
+                "Attack" : {
+                    "type": "damage",
+                    "effect" : 55,
+                    "sp" : 0
+                },
+                "Rock Fist": {
+                    "type": "damage",
+                    "effect" : 95,
+                    "sp" : 15
+                }
+            },
+            "description": "A rock monster with powerful defensive abilities, armored in the ore data from its habitat.  This selfish monster becomes a handful when angered, rampaging like an erupting volcano.",
+            "Evolution": {
+                "ID997": "UNKNOWN",
+                "ID998": "UNKNOWN",
+                "ID999": "UNKNOWN"
+            }
+        },
+        "ID016": {
+            "name": "Unknown"
+        },
+        "ID017": {
+            "name" : "Betamon",
+            "rank" : "Rookie",
+            "type" : "Defense",
+            "attacks" : {
+                "Attack" : {
+                    "effect" : 50,
+                    "sp" : 0
+                },
+                "Electric Shock": {
+                    "effect" : 95,
+                    "sp" : 15
+                }
+            },
+            "description": "An amphibian monster that walks on four legs.  Betamon is a docile monster with a mild temperament, but unleshes its special move, Electric Shock., when angered.  attacking its enemies with over a million volts of electric current.",
+            "Evolution": {
+                "ID997": "UNKNOWN",
+                "ID998": "UNKNOWN",
+                "ID999": "UNKNOWN"
+            }
+        },
+        "ID018": {
+            "name": "Unknown"
+        },
+        "ID019": {
+            "name": "Unknown"
+        },
+        "ID020": {
+            "name": "Unknown"
+        },
+        "ID021": {
+            "name": "Unknown"
+        },
+        "ID022": {
+            "name": "Unknown"
+        },
+        "ID023": {
+            "name": "Unknown"
+        },
+        "ID024": {
+            "name": "Unknown"
+        },
+        "ID025": {
+            "name": "Unknown"
+        },
+        "ID026": {
+            "name": "Unknown"
+        },
+        "ID027": {
+            "name": "Unknown"
+        },
+        "ID028": {
+            "name": "Unknown"
+        },
+        "ID029": {
+            "name": "Unknown"
+        },
+        "ID030": {
+            "name": "Unknown"
+        },
+        "ID031": {
+            "name": "Unknown"
+        },
+        "ID032": {
+            "name": "Unknown"
+        },
+        "ID033": {
+            "name": "Unknown"
+        },
+        "ID034": {
+            "name": "Unknown"
+        },
+        "ID035": {
+            "name": "Unknown"
+        },
+        "ID036": {
+            "name": "Unknown"
+        },
+        "ID037": {
+            "name": "Unknown"
+        },
+        "ID038": {
+            "name" : "Tyrannomon",
+            "rank" : "Champion",
+            "type" : "Defense",
+            "attacks" : {
+                "Attack" : {
+                    "effect" : 80,
+                    "sp" : 0
+                },
+                "Fire Breath": {
+                    "effect" : 175,
+                    "sp" : 30
+                }
+            },
+            "description": "A monster shaped like an ancient dinosaur from prehistoric times.  It mows down everything with its two developed arms and massive tail.  Tyrannomon's intelligence and docile personality make it easy to tame.",
+            "Evolution": {
+                "ID997": "UNKNOWN",
+                "ID998": "UNKNOWN",
+                "ID999": "UNKNOWN"
+            }
+        },
+        "ID039": {
+            "name": "Unknown"
+        },
+        "ID040": {
+            "name": "Unknown"
+        },
+        "ID041": {
+            "name": "Unknown"
+        },
+        "ID042": {
+            "name": "Unknown"
+        },
+        "ID043": {
+            "name": "Unknown"
+        },
+        "ID044": {
+            "name": "Unknown"
+        },
+        "ID045": {
+            "name": "Unknown"
+        },
+        "ID046": {
+            "name": "Unknown"
+        },
+        "ID047": {
+            "name": "Unknown"
+        },
+        "ID048": {
+            "name": "Unknown"
+        },
+        "ID049": {
+            "name": "Unknown"
+        },
+        "ID050": {
+            "name": "Unknown"
+        },
+        "ID051": {
+            "name": "Unknown"
+        },
+        "ID052": {
+            "name": "Unknown"
+        },
+        "ID053": {
+            "name": "Unknown"
+        },
+        "ID054": {
+            "name": "Unknown"
+        },
+        "ID055": {
+            "name": "Unknown"
+        },
+        "ID056": {
+            "name": "Unknown"
+        },
+        "ID057": {
+            "name": "Unknown"
+        },
+        "ID058": {
+            "name": "Unknown"
+        },
+        "ID059": {
+            "name": "Unknown"
+        },
+        "ID060": {
+            "name": "Unknown"
+        },
+        "ID061": {
+            "name": "Unknown"
+        },
+        "ID062": {
+            "name": "Unknown"
+        },
+        "ID063": {
+            "name": "Unknown"
+        },
+        "ID064": {
+            "name": "Unknown"
+        },
+        "ID065": {
+            "name": "Unknown"
+        },
+        "ID066": {
+            "name": "Unknown"
+        },
+        "ID067": {
+            "name": "Unknown"
+        },
+        "ID068": {
+            "name": "Unknown"
+        },
+        "ID069": {
+            "name": "Unknown"
+        },
+        "ID070": {
+            "name": "Unknown"
+        },
+        "ID071": {
+            "name": "Unknown"
+        },
+        "ID072": {
+            "name": "Unknown"
+        },
+        "ID073": {
+            "name": "Unknown"
+        },
+        "ID074": {
+            "name": "Unknown"
+        },
+        "ID075": {
+            "name": "Unknown"
+        },
+        "ID076": {
+            "name": "Unknown"
+        },
+        "ID077": {
+            "name": "Unknown"
+        },
+        "ID078": {
+            "name": "Unknown"
+        },
+        "ID079": {
+            "name": "Unknown"
+        },
+        "ID080": {
+            "name": "Unknown"
+        },
+        "ID081": {
+            "name": "Unknown"
+        },
+        "ID082": {
+            "name": "Unknown"
+        },
+        "ID083": {
+            "name": "Unknown"
+        },
+        "ID084": {
+            "name": "Unknown"
+        },
+        "ID085": {
+            "name": "Unknown"
+        },
+        "ID086": {
+            "name": "Unknown"
+        },
+        "ID087": {
+            "name": "Unknown"
+        },
+        "ID088": {
+            "name": "Unknown"
+        },
+        "ID089": {
+            "name": "Unknown"
+        },
+        "ID090": {
+            "name": "Unknown"
+        },
+        "ID091": {
+            "name": "Unknown"
+        },
+        "ID092": {
+            "name": "Unknown"
+        },
+        "ID093": {
+            "name": "Unknown"
+        },
+        "ID094": {
+            "name": "Unknown"
+        },
+        "ID095": {
+            "name": "Unknown"
+        },
+        "ID096": {
+            "name": "Unknown"
+        },
+        "ID097": {
+            "name": "Unknown"
+        },
+        "ID098": {
+            "name": "Unknown"
+        },
+        "ID099": {
+            "name": "Unknown"
+        },
+        "ID100": {
+            "name": "Unknown"
+        },
+        "ID101": {
+            "name": "Unknown"
+        },
+        "ID102": {
+            "name": "Unknown"
+        },
+        "ID103": {
+            "name": "Unknown"
+        },
+        "ID104": {
+            "name": "Unknown"
+        },
+        "ID105": {
+            "name": "Unknown"
+        },
+        "ID106": {
+            "name": "Unknown"
+        },
+        "ID107": {
+            "name": "Unknown"
+        },
+        "ID108": {
+            "name": "Unknown"
+        },
+        "ID109": {
+            "name": "Unknown"
+        },
+        "ID110": {
+            "name": "Unknown"
+        },
+        "ID111": {
+            "name": "Unknown"
+        },
+        "ID112": {
+            "name": "Unknown"
+        },
+        "ID113": {
+            "name": "Unknown"
+        }
+        
+    }
+}
