@@ -31,10 +31,297 @@
             "TYPE": "Defense"
         },
         {
+            "ID": 998,
+            "NAME": "Biyomon",
+            "RANK": "?",
+            "TYPE": "?",
+            "CHAT": [
+                {
+                    "PROMPT": "Someday I'm gonna run this join!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Good to have goals.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Not if I can help it.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Let me work for you!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Not a chance!",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Have you ever told a lie?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Once, for a friend.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Countless times.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Never ever.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I don't want to say",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "What's the most important thing to you?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "My friends.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Health.",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "Food!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Myself.",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Why are leaves green?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "To make people calm.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "It's the chlorophyll",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Or yellow, or red...",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Can't say, really.",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "What do you do for fun?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Climbing Trees.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Tag!",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Hide and seek.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Who has time for fun?",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Whenever I meet a scary monster, I just start apologizing. Weird, right?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "You're a nice 'mon.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "You don't wanna fight.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "I guess it's instinct?",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "YYou're a scaredy-cat.",
+                            "RESPONSE": -999
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "ID": 17,
             "NAME": "Betamon",
             "RANK": "Rookie",
-            "TYPE": "Defense"
+            "TYPE": "Defense",
+            "CHAT": [
+                {
+                    "PROMPT": "If your friend was off causing trouble, how would you deal with it?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "With my fists!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I'd scold them!",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "I'd protect my friend.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Nothing to do with me.",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "I'd like to avoid a pointless battle if possible...",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "And yet fight we must.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Get ready.",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "There's no such thing!",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Then let's retreat.",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "How do clouds in the sky look to you?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Fluffy and tasty.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Always transforming.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I wanna ride one!",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Makes you think, huh?",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Sometimes you should act on emotion instead of logic, don't you think?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "That sounds dangerous.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Be true to yourself",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Leap before you look!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Efficiency is key.",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Is wanting quiet time to yourself such a crime?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "No, but it's not easy.",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "I prefer fun.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "You should go for it!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Yeah, shame on you!",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "What would you do if someone told you an idea you believed in was incorrect?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Get annoyed!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I'd be embarrassed",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "Thank that person",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "I'd claim I was right!",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Looking at innocent monsters really puts your heart at ease, doesn't it?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Not for me, nope.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Love the nice guyy act.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "They're so cute!",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "What a gentle soul!",
+                            "RESPONSE": -999
+                        }
+                    ]
+                }
+                
+                   
+            ],
+            "DROPS":"",
+            "GIVEITEMS": "Bandage"
         },
         {
             "ID": 18,
@@ -56,11 +343,11 @@
                         },
                         {
                             "MESSAGE": "I trust you.",
-                            "RESPONSE": -999
+                            "RESPONSE": 1
                         },
                         {
                             "MESSAGE": "Fine by me.",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         }
                     ]
                 },
@@ -78,7 +365,7 @@
                         },
                         {
                             "MESSAGE": "That I'm easygoing",
-                            "RESPONSE": -999
+                            "RESPONSE": 2
                         },
                         {
                             "MESSAGE": "That I'm funny!",
@@ -148,7 +435,7 @@
                         },
                         {
                             "MESSAGE": "Pranks are bad!",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         }
                     ]
                 },
@@ -166,7 +453,7 @@
                         },
                         {
                             "MESSAGE": "Veggies all the way.",
-                            "RESPONSE": -999
+                            "RESPONSE": 1
                         },
                         {
                             "MESSAGE": "Why should I tell you?",
@@ -188,11 +475,11 @@
                         },
                         {
                             "MESSAGE": "I'd definitely lose.",
-                            "RESPONSE": -999
+                            "RESPONSE": 1
                         },
                         {
                             "MESSAGE": "Why don't we find out?",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         }
                     ]
                 }
