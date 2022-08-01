@@ -2,7 +2,7 @@ import axios from 'axios'
 import {useEffect, useState} from 'react'
 import PropTypes from 'prop-types'
 
-import Digimon from './Digimon'
+import Digimon from './chat/Digimon'
 
 function App() {
 	var path = 'http://localhost:3004/Digimon'
@@ -29,9 +29,12 @@ function App() {
 		<div>
 			{Object.values(query).map(part => {
 				return (
-					<div key={part.ID}>
-						{part.name === 'Unknown' ? null : <Digimon data={part}/> }
-					</div>
+					<>
+						<input type='text'/>
+						<div key={part.ID}>
+							{part.name === 'Unknown' ? null : <Digimon data={part}/> }
+						</div>
+					</>
 				)
 			})} 
 		</div>
