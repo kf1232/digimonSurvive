@@ -19,10 +19,22 @@
             "TYPE": "All-Rounder"
         },
         {
+            "ID": 6,
+            "NAME": "Floramon",
+            "RANK": "Rookie",
+            "TYPE": "Special"
+        },
+        {
             "ID": 8,
             "NAME": "Kunemon",
             "RANK": "Rookie",
             "TYPE": "Attack"
+        },
+        {
+            "ID": 10,
+            "NAME": "Lopmon",
+            "RANK": "Rookie",
+            "TYPE": "Special"
         },
         {
             "ID": 13,
@@ -177,7 +189,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "DROP": "",
+            "GIVEITEMS": ""
         },
         {
             "ID": 15,
@@ -595,7 +609,7 @@
             "GIVEITEMS": "Bandage"
         },
         {
-            "ID": 999,
+            "ID": 20,
             "NAME": "Numemon",
             "RANK": "?",
             "TYPE": "?",
@@ -668,12 +682,60 @@
                 }
             ],
             "DROPS": ""
-        },        
+        },
+        {
+            "ID": 22,
+            "NAME": "Deltamon",
+            "RANK": "Champion",
+            "TYPE": "Attack"
+        },  
+        {
+            "ID": 28,
+            "NAME": "Diatrymon",
+            "RANK": "Champion",
+            "TYPE": "Mobility"
+        },
+        {
+            "ID": 32,
+            "NAME": "Birdramon",
+            "RANK": "Champion",
+            "TYPE": "Mobility"
+        },  
         {
             "ID": 38,
             "NAME": "Tyannomon",
             "RANK": "Champion",
             "TYPE": "Defense"
+        },  
+        {
+            "ID": 40,
+            "NAME": "Sangloupmon",
+            "RANK": "Champion",
+            "TYPE": "Attack"
+        },  
+        {
+            "ID": 48,
+            "NAME": "Guardromon",
+            "RANK": "Champion",
+            "TYPE": "Defense"
+        },  
+        {
+            "ID": 49,
+            "NAME": "Dobermon",
+            "RANK": "Champion",
+            "TYPE": "All-Rounder"
+        },  
+        {
+            "ID": 114,
+            "NAME": "Guilmon",
+            "RANK": "Rookie",
+            "TYPE": "All-Rounder"
+        },  
+        {
+            "ID": 115,
+            "NAME": "Growlmon",
+            "RANK": "Champion",
+            "TYPE": "Attack"
         }
     ]
 }
