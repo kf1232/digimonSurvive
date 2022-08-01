@@ -12,7 +12,7 @@ function Chat(prop) {
                     {part.RESPONSE.map((res) => {
                         return (
                             <>
-                                {res.RESPONSE == 2 ? `(${res.RESPONSE}) ${res.MESSAGE}` : null}
+                                {res.RESPONSE >= -1 ? `(${res.RESPONSE}) ${res.MESSAGE}` : null}<br/>
                             </>
                         )
                     })}

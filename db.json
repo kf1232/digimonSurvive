@@ -76,7 +76,7 @@
                         },
                         {
                             "MESSAGE": "Never ever.",
-                            "RESPONSE": -999
+                            "RESPONSE": 2
                         },
                         {
                             "MESSAGE": "I don't want to say",
@@ -173,7 +173,7 @@
                     "RESPONSE": [
                         {
                             "MESSAGE": "I don't want to fight.",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         },
                         {
                             "MESSAGE": "Nice, so energetic!",
@@ -200,6 +200,69 @@
             "TYPE": "Defense",
             "CHAT": [
                 {
+                    "PROMPT": "Hey what kind of food do you like?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Love me some meat!",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Fruit's my favorite!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Veggies all the way.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Why should I tell you?",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Go on... Try guessing what I think of ya!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "That I'm cool?",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "That I'm trouble...",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "That I'm easygoing",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "That I'm funny!",
+                            "RESPONSE": 1
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Next! Whaddaya think'd be a good prank?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "A pit trap?",
+                            "RESPONSE": 2
+                        },
+                        {
+                            "MESSAGE": "Tripping someone?",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "water baloons",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Pranks are bad!",
+                            "RESPONSE": -1
+                        }
+                    ]
+                },
+                {
                     "PROMPT": "I don't care if you smile, or laugh, or whatever! I ain't gonna trust no human!",
                     "RESPONSE": [
                         {
@@ -208,7 +271,7 @@
                         },
                         {
                             "MESSAGE": "What can I do, then?",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         },
                         {
                             "MESSAGE": "I trust you.",
@@ -233,11 +296,11 @@
                         },
                         {
                             "MESSAGE": "Makes me wanna yawn.",
-                            "RESPONSE": -999
+                            "RESPONSE": 2
                         },
                         {
                             "MESSAGE": "Wanna fight for fun?",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         }
                     ]
                 },
@@ -250,7 +313,7 @@
                         },
                         {
                             "MESSAGE": "We'd probably tie.",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         },
                         {
                             "MESSAGE": "I'd definitely lose.",
@@ -736,6 +799,77 @@
             "NAME": "Growlmon",
             "RANK": "Champion",
             "TYPE": "Attack"
+        },  
+        {
+            "ID": 999,
+            "NAME": "Meramon",
+            "RANK": "?",
+            "TYPE": "?",
+            "CHAT": [
+                {
+                    "PROMPT": "Arrrrgh! Grraaaargh! Anyone else just gets in my way!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Calm down already!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "That's crazy talk.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "We can't live alone",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "[Let it simmer down.]",
+                            "RESPONSE": 2
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Ain't you a frail-looking thing. You eating enough meat?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Not Really.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I eat everything!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I prefer vegetables.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "You look strong.",
+                            "RESPONSE": 2
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Did you know? Taking a nap after stuffing your face is just the best!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Yeah, the best!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Really? I can't sleep.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "It's bad for your gut.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Thanks for the lesson!",
+                            "RESPONSE": 1
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

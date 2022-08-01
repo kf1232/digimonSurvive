@@ -27,14 +27,16 @@ function App() {
 
 	return (
 		<div>
+			<input type='text' onChange={(e) => console.log(setSelected(e.target.value))}/>
+			{selected}
 			{Object.values(query).map(part => {
 				return (
 					<>
-						<input type='text'/>
-						<div key={part.ID}>
-							{part.name === 'Unknown' ? null : <Digimon data={part}/> }
-						</div>
-					</>
+						{
+							part.NAME.includes(selected) ? <Digimon data={part} key={part.ID}/> 
+						                            	 : null 
+						}
+					</>	
 				)
 			})} 
 		</div>
