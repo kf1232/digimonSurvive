@@ -25,16 +25,10 @@
             "TYPE": "Attack"
         },
         {
-            "ID": 15,
-            "NAME": "Gotsumon",
-            "RANK": "Rookie",
-            "TYPE": "Defense"
-        },
-        {
-            "ID": 998,
+            "ID": 13,
             "NAME": "Biyomon",
-            "RANK": "?",
-            "TYPE": "?",
+            "RANK": "Rookie",
+            "TYPE": "Mobility",
             "CHAT": [
                 {
                     "PROMPT": "Someday I'm gonna run this join!",
@@ -49,11 +43,11 @@
                         },
                         {
                             "MESSAGE": "Let me work for you!",
-                            "RESPONSE": -999
+                            "RESPONSE": 1
                         },
                         {
                             "MESSAGE": "Not a chance!",
-                            "RESPONSE": -999
+                            "RESPONSE": 2
                         }
                     ]
                 },
@@ -91,7 +85,7 @@
                         },
                         {
                             "MESSAGE": "Food!",
-                            "RESPONSE": -999
+                            "RESPONSE": 2
                         },
                         {
                             "MESSAGE": "Myself.",
@@ -154,11 +148,124 @@
                         },
                         {
                             "MESSAGE": "I guess it's instinct?",
-                            "RESPONSE": -999
+                            "RESPONSE": 1
                         },
                         {
                             "MESSAGE": "YYou're a scaredy-cat.",
+                            "RESPONSE": 2
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "I don't care how tough you are, I'm not gonna loose!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "I don't want to fight.",
                             "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Nice, so energetic!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I'm not gonna loose!",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "I'll crush you, punk!",
+                            "RESPONSE": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID": 15,
+            "NAME": "Gotsumon",
+            "RANK": "Rookie",
+            "TYPE": "Defense",
+            "CHAT": [
+                {
+                    "PROMPT": "I don't care if you smile, or laugh, or whatever! I ain't gonna trust no human!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "I'll earn your trust!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "What can I do, then?",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I trust you.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Fine by me.",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Don't you think every day's just sooo boring?",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "I'm too busy living.",
+                            "RESPONSE": -1
+                        },
+                        {
+                            "MESSAGE": "Let's go do something!",
+                            "RESPONSE": 1
+                        },
+                        {
+                            "MESSAGE": "Makes me wanna yawn.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Wanna fight for fun?",
+                            "RESPONSE": -999
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "Boy, you're a tough-lookin' mug, arn't ya?! I bet I'd loose if we threw down...",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Have more confidence",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "We'd probably tie.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I'd definitely lose.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "Why don't we find out?",
+                            "RESPONSE": -1
+                        }
+                    ]
+                },
+                {
+                    "PROMPT": "I don't feel so good... Someone, help... ...Pffft, ha ha ha, just kidding!  Did I getcha?!",
+                    "RESPONSE": [
+                        {
+                            "MESSAGE": "Whoa, you scared me!",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "What awful acting...",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "I'm glad you're okay.",
+                            "RESPONSE": -999
+                        },
+                        {
+                            "MESSAGE": "That was lame!",
+                            "RESPONSE": -1
                         }
                     ]
                 }
@@ -280,7 +387,7 @@
                     "RESPONSE": [
                         {
                             "MESSAGE": "Get annoyed!",
-                            "RESPONSE": -999
+                            "RESPONSE": 2
                         },
                         {
                             "MESSAGE": "I'd be embarrassed",
@@ -292,7 +399,7 @@
                         },
                         {
                             "MESSAGE": "I'd claim I was right!",
-                            "RESPONSE": -999
+                            "RESPONSE": -1
                         }
                     ]
                 },
@@ -313,7 +420,7 @@
                         },
                         {
                             "MESSAGE": "What a gentle soul!",
-                            "RESPONSE": -999
+                            "RESPONSE": 2
                         }
                     ]
                 }
